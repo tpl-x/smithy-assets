@@ -34,13 +34,6 @@
 				}
 			}
 		},
-		"go-codegen": {
-			"service": "com.example#EchoService",
-			"module": "github.com/tpl-x/services/internal/tests/service/echo",
-			"moduleVersion": "0.0.1",
-			"generateGoMod": true,
-			"goDirective": "1.18"
-		},
 		"go-server-codegen": {
 			"service": "com.example#EchoService",
 			"module": "github.com/tpl-x/services/internal/tests/service/echo",
