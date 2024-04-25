@@ -36,6 +36,7 @@ jobs:
       - name: build smithy plugins
         run: |
           cd $GITHUB_WORKSPACE/rust && ./gradlew publishToMavenLocal
+          cd $GITHUB_WORKSPACE/go/codegen && ./gradlew publishToMavenLocal
           cd $GITHUB_WORKSPACE/python/codegen && ./gradlew publishToMavenLocal
           cd $GITHUB_WORKSPACE/swift && ./gradlew publishToMavenLocal
           cd $GITHUB_WORKSPACE/typescript && ./gradlew publishToMavenLocal
