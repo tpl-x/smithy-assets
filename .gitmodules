@@ -10,7 +10,6 @@
 [submodule "python"]
 	path = python
 	url = https://github.com/smithy-lang/smithy-python
-
 [submodule "go"]
-path = go
-url = https://github.com/aws/smithy-go
+	path = go
+	url = https://github.com/aws/smithy-go
